@@ -80,7 +80,7 @@ function sidebar() {
       <div className="sticky inset-x-0 bottom-0 border-t border-gray-100">
         <a href="#" className="flex items-center gap-2 bg-white p-4 hover:bg-gray-50">
           <Image src={logo} alt="logo" width={24} height={24} />
-
+    
           <div>
             <p className="text-xs">
               <strong className="block font-medium">TIJ inventory</strong>

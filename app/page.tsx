@@ -20,7 +20,7 @@ export default function Home() {
         const { data, error } = await supabase
             .from('inventory')
             .select('*')
-            .or(`TIJ_ID.match.${keyword},name.fts.${keyword},category.match.${keyword},model.fts.${keyword},owner.match.${keyword}`);
+            .or(`TIJ_ID.match.${keyword},name.match.${keyword},category.match.${keyword},model.match.${keyword},owner.match.${keyword}`);
 
         if (error) {
             return error;

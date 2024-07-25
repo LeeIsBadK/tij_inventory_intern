@@ -40,7 +40,6 @@ function Page({ params }: { params: { id: string} }) {
     return (
         <>
             <div className="py-10 lg:py-14 px-5">
-                <h1>Maintenance Page</h1>
                 <div className="grid min-h-dvh gap-2">
                     {detailCard(itemInfo, schedule)}
                 </div>

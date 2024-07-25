@@ -103,6 +103,7 @@ export default function detailCard(itemInfo: any, schedule: any) {
             .then((res: any) => {
                 console.log(res);
                 alert("Success");
+                window.location.href = "/maintenance";
             })
     };
 

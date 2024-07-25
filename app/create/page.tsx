@@ -28,7 +28,6 @@ function createpage() {
     }
     return (
         <div>
-            <h1>Create Page</h1>
             <form className="flex flex-col gap-4 p-4" onSubmit={handlesubmit}>
                 <h1 className="text-2xl font-semibold">Create inventory info</h1>
                 <div className="grid md:grid-cols-2 gap-4">
@@ -61,7 +60,7 @@ function createpage() {
 
                     <div>
                         <label className="block" htmlFor="date_added">Date added</label>
-                        <input className="w-full border rounded-md" type="date" name="date_added" id="date_added" />
+                        <input className="w-full border rounded-md" type="date" name="date_added" id="date_added" required/>
                     </div>
 
                     <div>
