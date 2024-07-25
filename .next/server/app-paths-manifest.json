@@ -1,16 +1,16 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/api/export/route": "app/api/export/route.js",
   "/api/inventory/[slug]/route": "app/api/inventory/[slug]/route.js",
-  "/api/maintenance/[slug]/route": "app/api/maintenance/[slug]/route.js",
-  "/api/maintenance/route": "app/api/maintenance/route.js",
   "/api/route": "app/api/route.js",
+  "/api/maintenance/[slug]/route": "app/api/maintenance/[slug]/route.js",
   "/api/schedule/route": "app/api/schedule/route.js",
+  "/api/export/route": "app/api/export/route.js",
+  "/api/maintenance/route": "app/api/maintenance/route.js",
   "/create/page": "app/create/page.js",
-  "/export/page": "app/export/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/inventory/[slug]/page": "app/inventory/[slug]/page.js",
   "/maintenance/[id]/page": "app/maintenance/[id]/page.js",
-  "/maintenance/page": "app/maintenance/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/export/page": "app/export/page.js",
+  "/inventory/[slug]/page": "app/inventory/[slug]/page.js",
+  "/maintenance/page": "app/maintenance/page.js"
 }
